@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="container mx-auto py-8 px-4">
             <div className="flex flex-col md:flex-row items-center justify-between">
                 <div className="flex flex-col md:flex-row items-center">
-                    <Image src="/logo_white.png" alt="Amar Saber" width={80} height={80} />
+                    <Image src="./logo_white.png" alt="Amar Saber" width={80} height={80} />
                 </div>
                 <div className="flex flex-col md:flex-row items-center mt-4 md:mt-0">
                     <a href="#" target="_blank" rel="noreferrer" className="text-white hover:text-blue-500 transition-colors duration-300">
