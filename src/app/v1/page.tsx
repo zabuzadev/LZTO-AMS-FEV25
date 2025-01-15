@@ -337,7 +337,7 @@ export  default function LandingPage() {
           </Card>
         </div>
         <div className="text-center mt-12 relative">
-          <Link href={'#home'} className="rounded-xl text-white rounded-xl bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-200/50 transition-all">
+          <Link href={'#home'} className="rounded-xl text-white bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-200/50 transition-all">
             Quero garantir minha vaga agora!
           </Link>
         </div>
