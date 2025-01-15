@@ -153,7 +153,7 @@ export  default function LandingPage() {
                 <span className="font-medium">Evento Exclusivo</span>
               </div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Os três pilares para você se tornar um veterinário confiante, reconhecido e financeiramente estável
+                Os três passos para você veterinário alcançar os 10 mil reais mensais em até 90 dias:
               </h1>
               <h2 className="text-xl md:text-2xl text-pink-600 font-semibold">
                 Os três passos para você veterinário alcançar os 10 mil reais mensais em até 90 dias
