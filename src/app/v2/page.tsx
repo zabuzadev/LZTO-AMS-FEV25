@@ -313,7 +313,7 @@ export  default function LandingPage() {
           </Card>
           
           <Card className="p-6 space-y-4 bg-gradient-to-br from-white to-pink-50 border-pink-200">
-          <div className="w-60 md:w-40 lg:w-60.. h-40 flex items-center justify-center mb-4">
+          <div className="w-60 md:w-40 lg:w-60 h-40 flex items-center justify-center mb-4">
               <Image src={"./mulherPreocupadaEstudando.png"} alt="mulher triste estudadndo angustiada " width={150} height={100} className="mx-auto" />
             </div>
             <h3 className="text-xl font-bold text-pink-600">
@@ -325,7 +325,7 @@ export  default function LandingPage() {
           </Card>
           
           <Card className="p-6 space-y-4 bg-gradient-to-br from-white to-pink-50 border-pink-200">
-          <div className="w-60 md:w-40 lg:w-60.. h-40 flex items-center justify-center mb-4">
+          <div className="w-60 md:w-40 lg:w-60 h-40 flex items-center justify-center mb-4">
               <Image src={"./mulherCaidaNoChaoPreocupada.png"} alt="mulher triste no chão " width={300} height={100} className="mx-auto" />
             </div>
             <h3 className="text-xl font-bold text-pink-600">
