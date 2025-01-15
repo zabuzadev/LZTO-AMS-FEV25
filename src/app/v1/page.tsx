@@ -123,7 +123,7 @@ export  default function LandingPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section with curved background */}
-      <section className="relative bg-hero-pattern bg-cover bg-no-repeat pt-12 pb-24">
+      <section className="relative bg-[url('./bg-hero.webp')] bg-cover bg-no-repeat pt-12 pb-24">
           <div className="absolute inset-0 opacity-5">
             <div className="grid grid-cols-6 gap-8">
               {hearts.map((i) => (
