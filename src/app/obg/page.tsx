@@ -16,7 +16,7 @@ export default function ObgPage() {
                             <span className="font-medium">Você esta dentro!</span>
                         </div>
                             <Image
-                                src="./logo_white.png"
+                                src="/logo_white.png"
                                 alt="Amar Saber Logo"
                                 width={150}
                                 height={60}
@@ -52,7 +52,7 @@ export default function ObgPage() {
 
                     <div className="relative ">
                         <Image
-                            src="./obg.png"
+                            src="/obg.png"
                             alt="Dra. Maria Paula"
                             width={500}
                             height={400}

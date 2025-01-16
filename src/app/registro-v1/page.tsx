@@ -133,7 +133,7 @@ export  default function LandingPage() {
           </div>
           <div className="container mx-auto relative">
             <Image 
-              src="./logo.png"
+              src="/logo.png"
               alt="Amar Saber Logo"
               width={150}
               height={60}
@@ -215,7 +215,7 @@ export  default function LandingPage() {
             <div className="relative">
               <div className="absolute -inset-1 bg-pink-300 rounded-full rounded-bl-xl rounded-br-xl opacity-20"></div>
               <Image
-                src="./hero.png"
+                src="/hero.png"
                 alt="Dra. Maria Paula"
                 width={500}
                 height={500}
@@ -302,7 +302,7 @@ export  default function LandingPage() {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto relative">
           <Card className="p-6 space-y-4 bg-gradient-to-br from-white to-pink-50 border-pink-200">
             <div className="w-60 md:w-40 lg:w-60 h-40 flex items-center justify-center mb-4">
-              <Image src={"./homemtrite.png"} alt="homem contando dinheiro e vendo contas trsite" width={300} height={100} className="mx-auto" />
+              <Image src={"/homemtrite.png"} alt="homem contando dinheiro e vendo contas trsite" width={300} height={100} className="mx-auto" />
             </div>
             <h3 className="text-xl font-bold text-pink-600">
               Veterinários que não conquistaram estabilidade financeira
@@ -314,7 +314,7 @@ export  default function LandingPage() {
           
           <Card className="p-6 space-y-4 bg-gradient-to-br from-white to-pink-50 border-pink-200">
           <div className="w-60 md:w-40 lg:w-60 h-40 flex items-center justify-center mb-4">
-              <Image src={"./mulherPreocupadaEstudando.png"} alt="mulher triste estudadndo angustiada " width={150} height={100} className="mx-auto" />
+              <Image src={"/mulherPreocupadaEstudando.png"} alt="mulher triste estudadndo angustiada " width={150} height={100} className="mx-auto" />
             </div>
             <h3 className="text-xl font-bold text-pink-600">
               Estudantes próximos de se formar
@@ -326,7 +326,7 @@ export  default function LandingPage() {
           
           <Card className="p-6 space-y-4 bg-gradient-to-br from-white to-pink-50 border-pink-200">
           <div className="w-60 md:w-40 lg:w-72 h-48 flex items-center justify-center mb-4">
-              <Image src={"./mulherCaidaNoChaoPreocupada.png"} alt="mulher triste no chão " width={400} height={300} className="mx-auto" />
+              <Image src={"/mulherCaidaNoChaoPreocupada.png"} alt="mulher triste no chão " width={400} height={300} className="mx-auto" />
             </div>
             <h3 className="text-xl font-bold text-pink-600">
               Veterinários já formados, mas inseguros
@@ -399,7 +399,7 @@ export  default function LandingPage() {
             <div className="relative">
               <div className="absolute -inset-1 bg-pink-300 rounded-full rounded-br-lg rounded-bl-xl opacity-20  shadow-lg"></div>
               <Image
-                src="./suaMentora.png"
+                src="/suaMentora.png"
                 alt="Dra. Maria Paula"
                 width={400}
                 height={500}
