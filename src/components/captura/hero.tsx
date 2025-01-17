@@ -122,7 +122,7 @@ export default function Hero({ title }: HeroProps) {
   }
 
     return (
-        <section className="relative bg-[url('/bg-hero.webp')] bg-cover bg-no-repeat pt-12 pb-24">
+        <section className="relative bg-[url('/bg-hero.webp')] bg-cover bg-no-repeat pt-2 pb-8">
           <div className="absolute inset-0 opacity-5">
             <div className="grid grid-cols-6 gap-8">
               {hearts.map((i) => (
