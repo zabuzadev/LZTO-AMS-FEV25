@@ -9,9 +9,13 @@ export default function PaginaDeCaptura1() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section with curved background */}
-      <Hero 
-        title=' Os três pilares para você se tornar um veterinário confiante, reconhecido e financeiramente estável'
-      />
+          <Hero 
+            title={
+              <>
+                Os <span className="text-pink-600 font-bold">três pilares</span> para você se tornar um <span className="text-pink-600 font-bold">veterinário</span> confiante, reconhecido e <span className="text-pink-600 font-bold">financeiramente estável</span>
+              </>
+            }
+          />
  
       {/* Objections Section with DNA pattern background */}
       <Section2 />

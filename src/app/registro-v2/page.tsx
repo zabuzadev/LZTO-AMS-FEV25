@@ -5,8 +5,8 @@ import Section2 from "@/components/captura/section2"
 import Section3 from "@/components/captura/section3"
 import Section4 from "@/components/captura/section4"
 import Section5 from "@/components/captura/section5"
- 
-export  default function LandingPage2() {
+
+export default function LandingPage2() {
   // Adicionar estado para armazenar os corações
   const [hearts, setHearts] = useState<number[]>([])
 
@@ -15,13 +15,17 @@ export  default function LandingPage2() {
     const heartArray = Array.from({ length: 24 }, (_, i) => i)
     setHearts(heartArray)
   }
-  , [])
+    , [])
 
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section with curved background */}
-      <Hero 
-        title='Os três passos para você veterinário alcançar os 10 mil reais mensais em até 90 dias:'
+      <Hero
+        title={
+          <>
+            Os <span className="text-pink-600 font-bold"> três passos </span> para você <span className="text-pink-600 font-bold"> veterinário </span> alcançar os <span className="text-pink-600 font-bold"> 10 mil </span> reais mensais em até 90 dias:
+          </>
+        }
       />
 
       {/* Objections Section with DNA pattern background */}
@@ -31,7 +35,7 @@ export  default function LandingPage2() {
       <Section3 />
 
       {/* Value Proposition Section with wave pattern */}
-     <Section4 />
+      <Section4 />
 
       {/* Credibility Section */}
       <Section5 />

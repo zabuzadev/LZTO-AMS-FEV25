@@ -3,15 +3,15 @@ import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import { CalendarDays, Clock, Globe2, Heart, Stethoscope } from "lucide-react";
 import { Card } from "../ui/card";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 interface HeroProps {
-  title: string;
+  title: React.ReactNode;
 }
 
 export default function Hero({ title }: HeroProps) {
-    const [hearts, setHearts] = useState<number[]>([])
-    
+  const [hearts, setHearts] = useState<number[]>([])
+
   // Adicionar estados para os campos do formulário
   const [fullname, setFullname] = useState('');
   const [email, setEmail] = useState('');
@@ -94,14 +94,14 @@ export default function Hero({ title }: HeroProps) {
       },
       body: JSON.stringify(data)
     })
-    .then(response => response.json())
-    .then(result => {
-      console.log('Webhook disparado com sucesso:', result);
-      window.location.href = '/obg';
-    })
-    .catch(error => {
-      console.error('Erro ao disparar o webhook:', error);
-    });
+      .then(response => response.json())
+      .then(result => {
+        console.log('Webhook disparado com sucesso:', result);
+        window.location.href = '/obg';
+      })
+      .catch(error => {
+        console.error('Erro ao disparar o webhook:', error);
+      });
   }
 
   function formatPhone(value: string): string {
@@ -121,94 +121,94 @@ export default function Hero({ title }: HeroProps) {
     return value;
   }
 
-    return (
-        <section className="relative bg-[url('/hero_bg.webp')] bg-center bg-cover bg-no-repeat pt-2 pb-8">
+  return (
+    <section className="relative bg-[url('/hero_bg.webp')] bg-center bg-cover bg-no-repeat pt-2 pb-8">
 
-          <div className="container mx-auto relative">
-            <Image 
-              src="/logo.png"
-              alt="Amar Saber Logo"
-              width={150}
-              height={60}
-              className="mx-auto"
-            />
-        </div>
-        <div className="container mx-auto px-4 relative">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="space-y-6">
-              <div className="inline-flex items-center gap-2 bg-pink-100 px-4 py-2 rounded-full text-pink-700">
-                <Stethoscope className="h-5 w-5" />
-                <span className="font-medium">Evento Exclusivo</span>
-              </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-100 leading-tight">
-                {title}
-              </h1>
-              <p className="text-lg text-gray-100">
-                Aprenda a construir uma carreira que gere R$10 mil mensais, sem precisar de equipamentos caros ou estrutura de hospital veterinário. Mesmo em cidades pequenas ou com recursos limitados.
-              </p>
-              
-              <Card className="p-6 bg-white border-pink-200 shadow-lg">
-                <div className="space-y-4">
-                  <div className="flex items-center gap-2 text-pink-700">
-                    <CalendarDays className="h-5 w-5" />
-                    <span className="font-medium">Data: 04/02</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-pink-700">
-                    <Clock className="h-5 w-5" />
-                    <span className="font-medium">Horário: 19h</span>
-                  </div>
-                  <div className="flex items-center gap-2 text-pink-700">
-                    <Globe2 className="h-5 w-5" />
-                    <span className="font-medium">Formato: Online, ao vivo e gratuito</span>
-                  </div>
+      <div className="container mx-auto relative">
+        <Image
+          src="/logo.png"
+          alt="Amar Saber Logo"
+          width={150}
+          height={60}
+          className="mx-auto"
+        />
+      </div>
+      <div className="container mx-auto px-4 relative">
+        <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="space-y-6">
+            <div className="inline-flex items-center gap-2 bg-pink-100 px-4 py-2 rounded-full text-pink-700">
+              <Stethoscope className="h-5 w-5" />
+              <span className="font-medium">Evento Exclusivo</span>
+            </div>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-100 leading-tight">
+              {title}
+            </h1>
+            <p className="text-lg text-gray-100">
+              Aprenda a construir uma carreira que gere R$10 mil mensais, sem precisar de equipamentos caros ou estrutura de hospital veterinário. Mesmo em cidades pequenas ou com recursos limitados.
+            </p>
+
+            <Card className="p-6 bg-white border-pink-200 shadow-lg">
+              <div className="space-y-4">
+                <div className="flex items-center gap-2 text-pink-700">
+                  <CalendarDays className="h-5 w-5" />
+                  <span className="font-medium">Data: 04/02</span>
                 </div>
-              </Card>
+                <div className="flex items-center gap-2 text-pink-700">
+                  <Clock className="h-5 w-5" />
+                  <span className="font-medium">Horário: 19h</span>
+                </div>
+                <div className="flex items-center gap-2 text-pink-700">
+                  <Globe2 className="h-5 w-5" />
+                  <span className="font-medium">Formato: Online, ao vivo e gratuito</span>
+                </div>
+              </div>
+            </Card>
 
-              <form id="form_1" className="space-y-4" onSubmit={handleSubmit}>
-                <Input 
-                  id="fullname" 
-                  type="text" 
-                  placeholder="Nome completo" 
-                  className="bg-pink-50 border-pink-300 h-12"  
-                  required
-                  value={fullname}
-                  onChange={(e) => setFullname(e.target.value)}
-                />
-                <Input 
-                  id="phone" 
-                  type="tel" 
-                  placeholder="WhatsApp" 
-                  className="bg-pink-50 border-pink-300 h-12" 
-                  value={phone}
-                  onChange={(e) => setPhone(formatPhone(e.target.value))}
-                />
-                <Input 
-                  id="email" 
-                  type="email" 
-                  placeholder="E-mail" 
-                  className="bg-pink-50 border-pink-300 h-12" 
-                  required
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-                <Button type="submit" className="w-full bg-pink-600 hover:bg-pink-700 text-lg py-6 shadow-xl hover:shadow-pink-200/50 transition-all">
-                  Quero participar agora!
-                </Button>
-              </form>
-            </div>
-            
-            <div className="relative">
-              <div className="absolute -inset-1 bg-[#F6B2D9] rounded-full rounded-bl-xl rounded-br-xl opacity-40"></div>
-              <Image
-                src="/hero.png"
-                alt="Dra. Maria Paula"
-                width={500}
-                height={500}
-                className="mx-auto relative"
+            <form id="form_1" className="space-y-4" onSubmit={handleSubmit}>
+              <Input
+                id="fullname"
+                type="text"
+                placeholder="Nome completo"
+                className="bg-pink-50 border-pink-300 h-12"
+                required
+                value={fullname}
+                onChange={(e) => setFullname(e.target.value)}
               />
-            </div>
+              <Input
+                id="phone"
+                type="tel"
+                placeholder="WhatsApp"
+                className="bg-pink-50 border-pink-300 h-12"
+                value={phone}
+                onChange={(e) => setPhone(formatPhone(e.target.value))}
+              />
+              <Input
+                id="email"
+                type="email"
+                placeholder="E-mail"
+                className="bg-pink-50 border-pink-300 h-12"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <Button type="submit" className="w-full bg-pink-600 hover:bg-pink-700 text-lg py-6 shadow-xl hover:shadow-pink-200/50 transition-all">
+                Quero participar agora!
+              </Button>
+            </form>
+          </div>
+
+          <div className="relative">
+            <div className="absolute -inset-1 bg-[#F6B2D9] rounded-full rounded-bl-xl rounded-br-xl opacity-40"></div>
+            <Image
+              src="/hero.png"
+              alt="Dra. Maria Paula"
+              width={500}
+              height={500}
+              className="mx-auto relative"
+            />
           </div>
         </div>
-      </section>
-    )
+      </div>
+    </section>
+  )
 }
