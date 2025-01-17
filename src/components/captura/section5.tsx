@@ -24,7 +24,7 @@ export default function Section5() {
                 <Heart className="h-5 w-5" />
                 <span className="font-medium">Sua Mentora</span>
               </div>
-              <h2 className="text-3xl font-bold text-white">Quem será sua mentora?</h2>
+              <h2 className="text-4xl font-bold text-white">Quem será sua mentora?</h2>
               <div className="space-y-4 text-gray-100 mb-12">
                 <p>
                   Drª. Maria Paula começou sua carreira enfrentando os mesmos desafios que muitos veterinários vivem hoje. Durante a graduação, sentiu a lacuna entre o ensino teórico e a realidade prática do mercado.

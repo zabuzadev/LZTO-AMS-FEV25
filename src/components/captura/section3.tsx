@@ -32,7 +32,7 @@ export default function Section3() {
           ))}
         </div>
        <div className="py-16 container mx-auto px-4">
-       <h2 className="text-4xl font-bold text-center mb-12 relative text-pink-50">
+       <h2 className="text-5xl font-bold text-center mb-12 relative text-pink-50">
           Para quem é este evento?
         </h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto relative">

@@ -25,8 +25,8 @@ export default function Section4() {
     return (
         <section className="relative py-16 bg-[#22001B]">
         <div className="container mx-auto px-4 relative">
-          <h2 className="text-3xl font-bold text-center mb-12 text-pink-50">
-            Em uma aula gratuita, você vai descobrir:
+          <h2 className="text-5xl font-bold text-center mb-12 text-pink-50">
+            Em uma <span className="text-pink-600 font-bold">aula gratuita</span>, você vai descobrir:
           </h2>
           <div className="max-w-3xl mx-auto grid  gap-6">
             {items.map((item, i) => (

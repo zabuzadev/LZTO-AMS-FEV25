@@ -27,7 +27,7 @@ export default function Section2() {
 
     <div className="container mx-auto px-4 relative">
     <div className="flex justify-center items-center w-full flex-col">
-        <h2 className="text-3xl font-medium text-center mb-12 max-w-[50rem] ">
+        <h2 className="text-4xl font-medium text-center mb-12 max-w-[50rem] ">
             Chega de viver com a <span className="text-pink-600 font-bold">'corda no pescoço'</span>. Muito trabalho e pouco retorno!
         </h2>
         <p className="text-lg mb-8">
