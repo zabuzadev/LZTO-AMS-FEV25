@@ -122,14 +122,8 @@ export default function Hero({ title }: HeroProps) {
   }
 
     return (
-        <section className="relative bg-[url('/bg-hero.webp')] bg-cover bg-no-repeat pt-2 pb-8">
-          <div className="absolute inset-0 opacity-5">
-            <div className="grid grid-cols-6 gap-8">
-              {hearts.map((i) => (
-                <Heart key={i} className="w-8 h-8 text-pink-300 transform rotate-45" />
-              ))}
-            </div>
-          </div>
+        <section className="relative bg-[url('/hero_bg.webp')] bg-center bg-cover bg-no-repeat pt-2 pb-8">
+
           <div className="container mx-auto relative">
             <Image 
               src="/logo.png"
@@ -139,11 +133,6 @@ export default function Hero({ title }: HeroProps) {
               className="mx-auto"
             />
         </div>
-        <div className="absolute inset-0 overflow-hidden">
-          <svg className="absolute left-0 top-0 h-full w-48 text-pink-50 transform -translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
-            <path d="M0 0L100 0C50 0 50 100 0 100Z" />
-          </svg>
-        </div>
         <div className="container mx-auto px-4 relative">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-6">
@@ -151,13 +140,10 @@ export default function Hero({ title }: HeroProps) {
                 <Stethoscope className="h-5 w-5" />
                 <span className="font-medium">Evento Exclusivo</span>
               </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-100 leading-tight">
                 {title}
               </h1>
-              <h2 className="text-xl md:text-2xl text-pink-600 font-semibold">
-                Os três passos para você veterinário alcançar os 10 mil reais mensais em até 90 dias
-              </h2>
-              <p className="text-lg text-gray-700">
+              <p className="text-lg text-gray-100">
                 Aprenda a construir uma carreira que gere R$10 mil mensais, sem precisar de equipamentos caros ou estrutura de hospital veterinário. Mesmo em cidades pequenas ou com recursos limitados.
               </p>
               
@@ -212,7 +198,7 @@ export default function Hero({ title }: HeroProps) {
             </div>
             
             <div className="relative">
-              <div className="absolute -inset-1 bg-pink-300 rounded-full rounded-bl-xl rounded-br-xl opacity-20"></div>
+              <div className="absolute -inset-1 bg-[#F6B2D9] rounded-full rounded-bl-xl rounded-br-xl opacity-40"></div>
               <Image
                 src="/hero.png"
                 alt="Dra. Maria Paula"

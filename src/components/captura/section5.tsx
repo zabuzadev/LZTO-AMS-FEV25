@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function Section5() {
     return (
-        <section className="py-16 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-pink-50/50 to-white"></div>
+        <section className="py-16 relative overflow-hidden bg-gradient-to-t from-[#6E0D42] to-[#702041]">
+        <div className="absolute inset-0 "></div>
         <div className="container mx-auto px-4 relative">
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <div className="relative">
@@ -24,8 +24,8 @@ export default function Section5() {
                 <Heart className="h-5 w-5" />
                 <span className="font-medium">Sua Mentora</span>
               </div>
-              <h2 className="text-3xl font-bold">Quem será sua mentora?</h2>
-              <div className="space-y-4 text-gray-700 mb-12">
+              <h2 className="text-3xl font-bold text-white">Quem será sua mentora?</h2>
+              <div className="space-y-4 text-gray-100 mb-12">
                 <p>
                   Drª. Maria Paula começou sua carreira enfrentando os mesmos desafios que muitos veterinários vivem hoje. Durante a graduação, sentiu a lacuna entre o ensino teórico e a realidade prática do mercado.
                 </p>
@@ -41,7 +41,7 @@ export default function Section5() {
               </div>
 
               <div className="pt-5">
-                <Link href={'#home'} className="rounded-xl  text-white bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-200/50 transition-all">
+                <Link href={'#home'} className="rounded-xl  text-white bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-900/50 transition-all">
                     Quero aprender com a Maria Paula
                 </Link>
               </div>

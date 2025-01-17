@@ -23,7 +23,7 @@ const items = [
 
 export default function Section2() {
     return (
-    <section className="relative py-16 overflow-hidden  bg-pink-50..">
+    <section className="relative py-16 overflow-hidden bg-[url('/bg2.webp')] bg-center bg-no-repeat bg-cover text-white bg-[#22001B]">
 
     <div className="container mx-auto px-4 relative">
     <div className="flex justify-center items-center w-full flex-col">
@@ -38,18 +38,18 @@ export default function Section2() {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {items.map((item, index) => (
-                <Card key={index} className="p-6 bg-white/80 backdrop-blur border-pink-200">
+                <Card key={index} className="p-6 bg-[#22001B]/80 backdrop-blur border-[#AA2E72]">
                     <div className="flex gap-4 items-center justify-center h-full">
                         <div className="w-12 h-12 rounded-full bg-pink-100 flex items-center justify-center flex-shrink-0">
-                            <item.icon className="w-6 h-6 text-pink-600" />
+                            <item.icon className="w-6 h-6 text-[#DB2777]" />
                         </div>
-                        <p className="text-gray-700">{item.text}</p>
+                        <p className="text-gray-100">{item.text}</p>
                     </div>
                 </Card>
             ))}
         </div>
         <div className="mt-14 text-center">
-        <Link href={'#home'} className="rounded-xl text-white bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-200/50 transition-all">
+        <Link href={'#home'} className="rounded-xl text-white bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-900/50 transition-all">
             Quero descobrir como!
         </Link>
         </div>

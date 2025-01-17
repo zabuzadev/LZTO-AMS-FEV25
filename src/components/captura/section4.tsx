@@ -23,9 +23,9 @@ const items = [
 
 export default function Section4() {
     return (
-        <section className="relative py-16 bg-pink-50">
+        <section className="relative py-16 bg-[#22001B]">
         <div className="container mx-auto px-4 relative">
-          <h2 className="text-3xl font-bold text-center mb-12 text-pink-600">
+          <h2 className="text-3xl font-bold text-center mb-12 text-pink-50">
             Em uma aula gratuita, você vai descobrir:
           </h2>
           <div className="max-w-3xl mx-auto grid  gap-6">
@@ -36,14 +36,14 @@ export default function Section4() {
                 </div>
                 <Card className="p-6 bg-white/80 backdrop-blur border-pink-200 w-full">
                   <div className="flex gap-4">
-                    <p className="text-gray-700">{item.text}</p>
+                    <p className="text-gray-950">{item.text}</p>
                   </div>
                 </Card>
               </div>
             ))}
           </div>
           <div className="text-center mt-12">
-            <Link href={'#home'} className="rounded-xl text-white bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-200/50 transition-all">
+            <Link href={'#home'} className="rounded-xl text-white bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-900/50 transition-all">
               Quero aprender agora!
             </Link>
           </div>

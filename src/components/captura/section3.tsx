@@ -16,12 +16,12 @@ export default function Section3() {
     , [])
 
     return (
-        <section className="py-16 container mx-auto px-4 relative">
+        <section className=" relative bg-[#22001B]">
         <div className="absolute inset-0 overflow-hidden">
           {hearts.map((i) => (
             <Heart
               key={i}
-              className="absolute text-pink-100 transform rotate-45"
+              className="absolute text-pink-100/50 transform rotate-45"
               style={{
                 top: `${Math.random() * 100}%`,
                 left: `${Math.random() * 100}%`,
@@ -31,7 +31,8 @@ export default function Section3() {
             />
           ))}
         </div>
-        <h2 className="text-4xl font-bold text-center mb-12 relative text-pink-600">
+       <div className="py-16 container mx-auto px-4">
+       <h2 className="text-4xl font-bold text-center mb-12 relative text-pink-50">
           Para quem é este evento?
         </h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto relative">
@@ -72,10 +73,11 @@ export default function Section3() {
           </Card>
         </div>
         <div className="text-center mt-12 relative">
-          <Link href={'#home'} className="rounded-xl text-white bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-200/50 transition-all">
+          <Link href={'#home'} className="rounded-xl text-white bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-900/50 transition-all">
             Quero garantir minha vaga agora!
           </Link>
         </div>
+       </div>
       </section>
     );
 }
