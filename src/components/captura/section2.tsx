@@ -48,7 +48,7 @@ export default function Section2() {
                 </Card>
             ))}
         </div>
-        <div className="mt-8 text-center">
+        <div className="mt-14 text-center">
         <Link href={'#home'} className="rounded-xl text-white bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-200/50 transition-all">
             Quero descobrir como!
         </Link>

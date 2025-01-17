@@ -40,7 +40,7 @@ export default function Section5() {
                 </Card>
               </div>
 
-              <div className="mt-8">
+              <div className="pt-5">
                 <Link href={'#home'} className="rounded-xl  text-white bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-200/50 transition-all">
                     Quero aprender com a Maria Paula
                 </Link>
