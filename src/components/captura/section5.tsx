@@ -27,8 +27,7 @@ export default function Section5() {
               <h2 className="text-4xl font-bold text-white">Quem será sua mentora?</h2>
               <div className="space-y-4 text-gray-100 mb-12">
                 <p>
-                  Drª. Maria Paula começou sua carreira enfrentando os mesmos desafios que muitos veterinários vivem hoje. Durante a graduação, sentiu a lacuna entre o ensino teórico e a realidade prática do mercado.
-                </p>
+                 Drª. Maria Paula é sócia e proprietária da Amar Veterinária, pessoalmente criou um treinamento para todas as médicas veterinárias da sua empresa que posteriormente viria a se tornar base para a "Formação Amar Saber". Começou sua carreira enfrentando os mesmos desafios que muitos veterinários vivem hoje. Durante a graduação, sentiu a lacuna entre o ensino teórico e a realidade prática do mercado.                </p>
                 <p>
                   É uma profissional apaixonada por transformar carreiras veterinárias. Com experiência prática e técnica, ela é a fundadora do Formação Amar Saber, criado para ajudar veterinários recém-formados ou estagnados a superarem os desafios do mercado e conquistarem estabilidade financeira.
                 </p>
@@ -42,7 +41,7 @@ export default function Section5() {
 
               <div className="pt-5">
                 <Link href={'#home'} className="rounded-xl  text-white bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-900/50 transition-all">
-                    Quero aprender com a Maria Paula
+                    Quero aprender com a Drª. Maria Paula
                 </Link>
               </div>
             </div>

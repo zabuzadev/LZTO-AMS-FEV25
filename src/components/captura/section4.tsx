@@ -44,7 +44,7 @@ export default function Section4() {
           </div>
           <div className="text-center mt-12">
             <Link href={'#home'} className="rounded-xl text-white bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-900/50 transition-all">
-              Quero aprender agora!
+              Quero aprender agora
             </Link>
           </div>
         </div>

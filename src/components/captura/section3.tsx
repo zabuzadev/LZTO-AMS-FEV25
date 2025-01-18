@@ -74,7 +74,7 @@ export default function Section3() {
         </div>
         <div className="text-center mt-12 relative">
           <Link href={'#home'} className="rounded-xl text-white bg-pink-600 hover:bg-pink-700 text-lg py-6 px-8 shadow-xl hover:shadow-pink-900/50 transition-all">
-            Quero garantir minha vaga agora!
+            Quero garantir minha vaga agora
           </Link>
         </div>
        </div>
