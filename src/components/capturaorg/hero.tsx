@@ -144,7 +144,7 @@ export default function Hero({ title }: HeroProps) {
               {title}
             </h1>
             <p className="text-lg text-gray-100">
-              Aprenda a construir uma carreira que gere R$10 mil mensais, sem precisar de equipamentos caros ou estrutura de hospital veterinário. Mesmo em cidades pequenas ou com recursos limitados.
+              Aprenda a construir uma carreira que gere R$7 mil mensais, sem precisar de equipamentos caros ou estrutura de hospital veterinário. Mesmo em cidades pequenas ou com recursos limitados.
             </p>
 
             <Card className="p-6 bg-white border-pink-200 shadow-lg">
