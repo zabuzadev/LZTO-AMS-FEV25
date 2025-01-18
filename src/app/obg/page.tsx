@@ -21,7 +21,7 @@ export default function ObgPage() {
 
         return () => clearInterval(interval);
     }
-    , []);
+        , []);
 
     return (
         <section className="relative bg-gradient-to-t from-violet-900 to-violet-950 pt-12 pb-24 min-h-screen flex justify-center items-center">
@@ -42,7 +42,7 @@ export default function ObgPage() {
                                 className="mx-auto"
                             />
                             <h1 className="text-3xl md:text-4xl lg:text-3xl font-bold text-gray-100 leading-tight">
-                                Parabéns! Você acaba de dar um grande passo na sua jornada como veterinário.
+                                Parabéns! Você acaba de dar um grande passo para transformar sua carreira, vet.
                             </h1>
                             <div className="relative bg-gray-200 rounded-full h-8 shadow-md overflow-hidden">
                                 <div
@@ -54,41 +54,43 @@ export default function ObgPage() {
                                 </div>
 
                             </div>
-                        <h2 className="text-xl md:text-lg text-pink-100 font-semibold">
-                            O nosso evento exclusivo vai <span className="text-pink-500">ensinar</span> você construir uma carreira que gere R$10 mil
-                            mensais, sem precisar de equipamentos caros ou estrutura de hospital
-                            veterinário. Mesmo em cidades pequenas ou com recursos limitados.
-                            Para finalizar sua participação, <span className="text-pink-500">entre agora</span> mesmo para o grupo
-                            <span className="text-pink-500"> exclusivo do WhatsApp.</span>
-                        </h2>
+                            <h2 className="text-xl md:text-lg text-pink-100 font-bold">
+                                O <span className="text-pink-500">Formação Amar Saber</span> é um evento exclusivo para revelar as estratégias que desenvolvi 
+                                durante mais de 14 anos como médica veterinária para alcançar a <span className="text-pink-500">segurança clínica e 
+                                estabilidade financeira.</span>
+                            </h2>
 
-                        <Link href="https://chat.whatsapp.com/IEUzoJFIbXTLNK79wqLFi8" className="inline-block bg-pink-500 hover:bg-pink-600 text-white w-full text-center px-6 py-3 rounded-lg font-bold text-xl">
-                            Quero fazer parte do grupo especial
-                        </Link>
+                            <h3 className="text-xl md:text-lg text-pink-100 font-bold">
+                            Para finalizar sua participação, entre agora mesmo para o grupo exclusivo do WhatsApp.
+                            </h3>
 
-                        <p className="text-lg text-gray-50 font-medium">
-                            O grupo é a forma mais segura de garantir que você
-                            <span className="text-pink-500"> receberá o link da aula e todos os materiais exclusivos que preparamos.</span>
-                        </p>
-                        <p className="text-lg text-gray-50 font-medium">
-                            tranquilo, o grupo é silencioso e seguro. Apenas nossa equipe vai mandar mensagem.
+                            <Link href="https://chat.whatsapp.com/IEUzoJFIbXTLNK79wqLFi8" className="inline-block bg-pink-500 hover:bg-pink-600 text-white w-full text-center px-6 py-3 rounded-lg font-bold text-xl">
+                                Quero fazer parte do grupo especial
+                            </Link>
 
-                        </p>
+                            <p className="text-lg text-pink-100 font-semibold">
+                                O grupo é a forma mais segura de garantir que você
+                                <span className="text-pink-500"> receberá o link da aula e todos os materiais exclusivos que preparamos.</span>
+                            </p>
+                            <p className="text-lg text-pink-100 font-semibold">
+                                Fique tranquilo, o grupo é silencioso e seguro. Apenas nossa equipe vai mandar mensagem.
+
+                            </p>
 
 
+                        </div>
+                    </Card>
+
+                    <div className="relative ">
+                        <Image
+                            src="/obg.png"
+                            alt="Dra. Maria Paula"
+                            width={500}
+                            height={400}
+                            className="mx-auto relative"
+                        />
+                    </div>
                 </div>
-            </Card>
-
-            <div className="relative ">
-                <Image
-                    src="/obg.png"
-                    alt="Dra. Maria Paula"
-                    width={500}
-                    height={400}
-                    className="mx-auto relative"
-                />
-            </div>
-        </div>
             </div >
         </section >
     );
