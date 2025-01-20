@@ -23,22 +23,25 @@ export default function LandingPage2() {
       <Hero
         title={
           <>
-            Transforme sua <span className="text-pink-600 font-bold"> paixão por animais <span className="text-pink-600 font-bold"> e prepare-se para lidar </span> com a<span className="text-pink-600 font-bold"> medicina veterinária, </span> não importa se você está começando ou deseja recomeçar
+            Transforme sua 
+            <span className="text-pink-600 font-bold"> paixão por animais e prepare-se para lidar </span> 
+            com a <span className="text-pink-600 font-bold"> medicina veterinária, </span> 
+            não importa se você está começando ou deseja recomeçar
           </>
         }
       />
 
-      {/* Objections Section with DNA pattern background */}
-      <Section2 />
+            {/* Objections Section with DNA pattern background */}
+            <Section2 />
 
-      {/* Target Audience Section with paw prints */}
-      <Section3 />
+            {/* Target Audience Section with paw prints */}
+            <Section3 />
 
-      {/* Value Proposition Section with wave pattern */}
-      <Section4 />
+            {/* Value Proposition Section with wave pattern */}
+            <Section4 />
 
-      {/* Credibility Section */}
-      <Section5 />
-    </div>
-  )
+            {/* Credibility Section */}
+            <Section5 />
+          </div>
+        )
 }
