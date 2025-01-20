@@ -140,7 +140,7 @@ export default function Hero({ title }: HeroProps) {
               <Stethoscope className="h-5 w-5" />
               <span className="font-medium">Evento Exclusivo</span>
             </div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-100 leading-tight">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-100 leading-tight">
               {title}
             </h1>
             <p className="text-lg text-gray-100">

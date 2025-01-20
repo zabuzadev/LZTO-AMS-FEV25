@@ -24,7 +24,7 @@ export default function LandingPage2() {
         title={
           <>
             Transforme sua 
-            <span className="text-pink-600 font-bold"> paixão por animais e prepare-se para lidar </span> 
+            <span className="text-pink-600 font-bold"> paixão por animais </span>  e prepare-se para lidar
             com a <span className="text-pink-600 font-bold"> medicina veterinária, </span> 
             não importa se você está começando ou deseja recomeçar
           </>
