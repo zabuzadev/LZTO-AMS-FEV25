@@ -23,7 +23,7 @@ export default function LandingPage2() {
       <Hero
         title={
           <>
-            Os <span className="text-pink-600 font-bold"> três passos </span> para você <span className="text-pink-600 font-bold"> veterinário </span> alcançar os <span className="text-pink-600 font-bold"> 7 mil </span> reais mensais em até 90 dias
+            Transforme sua <span className="text-pink-600 font-bold"> paixão por animais <span className="text-pink-600 font-bold"> e prepare-se para lidar </span> com a<span className="text-pink-600 font-bold"> medicina veterinária, </span> não importa se você está começando ou deseja recomeçar
           </>
         }
       />
