@@ -64,7 +64,7 @@ export default function ObgPage() {
                             Para finalizar sua participação, entre agora mesmo para o grupo exclusivo do WhatsApp.
                             </h3>
 
-                            <Link href="https://chat.whatsapp.com/IEUzoJFIbXTLNK79wqLFi8" className="inline-block bg-pink-500 hover:bg-pink-600 text-white w-full text-center px-6 py-3 rounded-lg font-bold text-xl">
+                            <Link href="https://chat.whatsapp.com/LIIb3GrxDzt4Dp5xkAsToh" className="inline-block bg-pink-500 hover:bg-pink-600 text-white w-full text-center px-6 py-3 rounded-lg font-bold text-xl">
                                 Quero fazer parte do grupo especial
                             </Link>
 
